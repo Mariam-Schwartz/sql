@@ -77,4 +77,4 @@ Please do not pick the exact same tables that I have already diagramed. For exam
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
 **Homework_1 Submission 
-		- ![Logical_data_model](<Database ER diagram (crow's foot).png>)
+		- ![Logical_data_model]([<Database ER diagram (crow's foot).png>](https://lucid.app/documents/embedded/84e3b9e1-7049-4479-a07c-3a2cd53acf12?invitationId=inv_eddee06f-5d1c-4e0a-930f-e2da976f3fd0#))
