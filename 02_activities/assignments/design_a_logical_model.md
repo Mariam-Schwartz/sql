@@ -10,6 +10,9 @@ Schema for bookstore ![Bookstore](<https://lucid.app/lucidspark/cc23af57-61dd-4a
 ## Question 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
 
+Schema for bookstore with shift table ![Bookstore_w_shift](<https://lucid.app/lucidchart/5840e016-7e0d-413a-a4c9-08136054e7ac/edit?beaconFlowId=AE7E084875C70405&invitationId=inv_93df7410-c3ce-437a-9835-ca26228e0869&page=0_0)
+
+
 ## Question 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2?
 
