@@ -16,6 +16,8 @@ Schema for bookstore with shift table ![Bookstore_w_shift](<https://lucid.app/lu
 ## Question 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2?
 
+Schema for bookstore with Address Overwrite![Overwrite_Address](https://lucid.app/lucidchart/c7336d1a-fb32-4154-a999-03a3df9da5b8/edit?invitationId=inv_d394e3fe-3747-41c2-acbe-4ff3224d20b6)
+
 _Hint, search type 1 vs type 2 slowly changing dimensions._
 
 Bonus: Are there privacy implications to this, why or why not?
