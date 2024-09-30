@@ -18,12 +18,15 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 Schema for bookstore with Address Overwrite![Overwrite_Address](https://lucid.app/lucidchart/c7336d1a-fb32-4154-a999-03a3df9da5b8/edit?invitationId=inv_d394e3fe-3747-41c2-acbe-4ff3224d20b6)
 
+
+Schema for bookstore with Address Retention![Address_Retain](https://lucid.app/lucidchart/ebd12174-d46f-4183-ab06-35203d75294f/edit?invitationId=inv_fba7c9d1-c6ea-490f-80d2-b3a6982ac47c)
+
 _Hint, search type 1 vs type 2 slowly changing dimensions._
 
 Bonus: Are there privacy implications to this, why or why not?
 ```
 Your answer...
-```
+If customer addresses are stored indefinitely, there’s a risk that old addresses could be misused. For example, an employee with access to the database could view a customer’s past addresses which creates a risk of identity theft or other privacy violations. In the event of any sercurity breaches, malicious players may use the historical data to create a profile of their victim for fraud or other intent, putting the customer at risk. To protect customer privacy, it is better to overwrite the addresses. 
 
 ## Question 4
 Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
