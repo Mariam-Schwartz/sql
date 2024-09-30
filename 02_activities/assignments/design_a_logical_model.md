@@ -34,7 +34,10 @@ Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 Highlight at least two differences between it and your ERD. Would you change anything in yours?
 ```
 Your answer...
-```
+The AdventureWorks Schema is far more complex with more tables, and relationships. It looks like it was designed for a larger book store with each organization business unit having its own schema e.g. Sales, Purchasing, Production. It is optimized for tracking data over time, which could be useful in business analytics to track trends and perhaps some predictive analysis as well. 
+My ERD his much more simpler, and basically only builds out tables and relationships as prescribed in the earlier questions. It may function well for a small local bookstore, and will lend itself well to manage inventory, sales and employee information. There could be some analytical uses but it may not be as insightful as the AdventureWorks Database. 
+I would change my approach, to not just designing the few tables I was prompted to, but take a step back to understand the business model, and value chain involved in running a book store, I'll ask questions around the analytic use cases for the data that would be gathered, so I can create entities and relationships that will serve those scenarios. 
+I guess that's the idea behind the word "Relational" - the database really has to be build with the model of the real word it represents. 
 
 # Criteria
 
